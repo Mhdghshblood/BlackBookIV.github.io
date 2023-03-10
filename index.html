@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Caesar Password Converter</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <div class="main">
-      <h1>Caesar Password Converter</h1>
-      <label for="plaintext">Plaintext message:</label>
-      <input type="text" id="plaintext" name="plaintext"><br>
-      <label for="shift">Shift number(1~26):</label>
-      <input type="number" id="shift" name="shift" min="1" max="26" value="1"><br>
-      <button onclick="encode()">Encode</button>
-      <button onclick="decode()">Decode</button>
-      <br>
-      <label for="result">Result:</label>
-      <textarea id="result" name="result" readonly></textarea>
-      <script src="main.js"></script>
-    </div>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Tuts+ Chat Application</title>
+        <meta name="description" content="Tuts+ Chat Application" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="menu">
+                <p class="welcome">Welcome, <b></b></p>
+                <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+            </div>
+            <div id="chatbox"></div>
+            <form name="message" action="">
+                <input name="usermsg" type="text" id="usermsg" />
+                <input name="submitmsg" type="submit" id="submitmsg" value="Send" />
+            </form>
+        </div>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            // jQuery Document 
+            $(document).ready(function () {});
+        </script>
+    </body>
 </html>
